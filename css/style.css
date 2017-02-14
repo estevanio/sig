@@ -19,7 +19,18 @@
 .dialogdemoBasicUsage .dialog-demo-prerendered md-checkbox {
   margin-bottom: 0; }
 
+md-dialog-content {
+	height: 500px;
+	width: 500px;
+}
 
+div.m-signature-pad {
+	height: 100%;
+}
+
+div.m-signature-pad > div.m-signature-pad--body {
+	height: calc(100% - 46px);
+}
 /*
 Copyright 2016 Google Inc. All Rights Reserved. 
 Use of this source code is governed by an MIT-style license that can be foundin the LICENSE file at http://material.angularjs.org/HEAD/license.

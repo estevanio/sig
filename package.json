@@ -1,0 +1,21 @@
+{
+  "name": "sig",
+  "version": "1.0.0",
+  "description": "signature input sandbox",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stavinopolis/sig.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stavinopolis/sig/issues"
+  },
+  "homepage": "https://github.com/stavinopolis/sig#readme"
+}

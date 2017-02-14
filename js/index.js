@@ -70,17 +70,17 @@ angular.module('MyApp', ['ngMaterial', 'ngMessages', 'material.svgAssetsCache'])
             }
           });
 
-
+          console.log("Initialized");
         }
         if (document.readyState === 'complete') {
-          $timeout(initialize, 0, false);
+          $timeout(initialize, 5000, false);
         } else {
           console.log("readyState Incomplete");
           document.onreadystatechange = function() {
             if (document.readyState === "complete") {
               console.log("dehh");
 
-              $timeout(initialize, 0, false);
+              $timeout(initialize, 5000, false);
             }
           };
           // $helmPlatform.ready(function () { google.maps.event.addDomListener(window, 'load', initialize); });
